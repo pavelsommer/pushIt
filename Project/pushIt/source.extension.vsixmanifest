@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="pushIt.aecfab52-6ee8-4fd5-b87d-6f900642b952" Version="1.0.1" Language="en-US" Publisher="paYa" />
+        <Identity Id="pushIt.aecfab52-6ee8-4fd5-b87d-6f900642b952" Version="1.0.2" Language="en-US" Publisher="paYa" />
         <DisplayName>!pushIt</DisplayName>
         <Description xml:space="preserve">After solution close, this extension calls the "!push.bat" batch file in solution directory if its exists.</Description>
+        <MoreInfo>https://github.com/pavelsommer/pushIt</MoreInfo>
         <Icon>share-bold.png</Icon>
     </Metadata>
     <Installation>

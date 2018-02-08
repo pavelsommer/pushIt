@@ -102,6 +102,10 @@ namespace pushIt
 				.Exists(pushBat))
 				return;
 
+			Directory
+				.SetCurrentDirectory(Path
+				.GetDirectoryName(pushBat));
+
 			ProcessStartInfo startInfo1 = new ProcessStartInfo(pushBat);
 
 			startInfo1
